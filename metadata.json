@@ -1,0 +1,7 @@
+{
+  "name": "Hara AI",
+  "description": "Hara AI 1.0 - A next-generation conversational AI assistant with a sleek, emerald-themed interface.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
