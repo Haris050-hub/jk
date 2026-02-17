@@ -12,10 +12,7 @@ export default defineConfig({
     allowedHosts: true, 
     cors: true,
     hmr: {
-      // Force the HMR client to connect via the standard HTTPS port used by Ngrok
-      // This often fixes the issue where the browser tries to connect to ws://localhost:80 
-      // which fails when viewing the site via https://....ngrok.app
-      clientPort: 443,
+      // Disable overlay to prevent connection errors from blocking the UI
       overlay: false,
     }
   },
